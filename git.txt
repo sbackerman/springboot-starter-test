@@ -9,4 +9,20 @@ git config --global http.https://github.com.proxy 'socks5://127.0.0.1:7890'
 git config --global --list 
 
 
+# 使用以下简单命令即可取消代理
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+
+
+
+
+https://blog.rxliuli.com/p/ea4c1bd6f73d4faeadf389d0bb269bd3/
+https://lamirs.vercel.app/git-push-%E6%8F%90%E7%A4%BA%E4%B8%8D%E6%94%AF%E6%8C%81%E5%85%B7%E6%9C%89-socks5-%E6%96%B9%E6%A1%88%E7%9A%84%E4%BB%A3%E7%90%86/
+
+
+
+
+
+
+
 
