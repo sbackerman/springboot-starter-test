@@ -1,0 +1,12 @@
+https://blog.csdn.net/Leesnwen/article/details/132565716
+git config --global --list 
+
+
+#(记录一下！)代理更改为socks5
+git config --global http.proxy 'socks5://127.0.0.1:7890'
+git config --global https.proxy 'socks5://127.0.0.1:7890'
+git config --global http.https://github.com.proxy 'socks5://127.0.0.1:7890'
+git config --global --list 
+
+
+
